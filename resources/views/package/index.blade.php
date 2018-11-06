@@ -42,7 +42,7 @@
                 <div class="title">{{ trans('package::messages.greeting') }}</div>
                 <div class="title">Default Timezone: {{ config('package.default') }}</div>
                 <div class="title">{{ $current_time }}</div>
-                <p>{!! Timezones::saySomething() !!}</p>
+                <p>{!! Package::saySomething() !!}</p>
             </div>
         </div>
     </body>
