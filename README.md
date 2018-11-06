@@ -1,0 +1,2 @@
+# package
+Laravel Package Boilerplate
